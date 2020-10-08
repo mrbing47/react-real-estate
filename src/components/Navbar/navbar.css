@@ -1,0 +1,169 @@
+#nav-container {
+	position: sticky;
+	background-color: white;
+	top: 0px;
+	left: 0px;
+}
+#navbar {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	padding: 0px 28px;
+	position: relative;
+}
+
+.arrow-down {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	margin-left: 8px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+.nav-item {
+	cursor: pointer;
+	margin-right: 28px;
+}
+
+#navbar-search-container {
+	flex: 1;
+	padding: 0px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#navbar-search-container input {
+	flex: 1;
+	padding: 1em 1.2em;
+	border: 2px solid black;
+}
+
+#navbar-search-container button {
+	color: white;
+	background-color: black;
+	border: none;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	font-size: 16px;
+	padding: 0.75em;
+	outline: none;
+
+	transition: all ease-in 150ms;
+}
+
+#navbar-search-container button svg {
+	margin-right: 8px;
+}
+
+#navbar-search-container button:hover {
+	background-color: #018161;
+}
+
+#list-prop {
+	background-color: #ffd400;
+	font-weight: 500;
+	padding: 0.5em 0.7em;
+	border-radius: 16px;
+	transition: all ease-in-out 200ms;
+}
+
+#list-prop:hover {
+	transform: scale(1.05);
+}
+
+.hide-options {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.show-options {
+	visibility: visible;
+	opacity: 1;
+}
+
+#options-container-parent {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	min-height: 100vh;
+	max-height: max-content;
+}
+
+#options-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding: 80px 12vw;
+	background-color: white;
+}
+
+#left-nav {
+	flex: 5;
+}
+#right-nav {
+	flex: 3;
+}
+
+#left-nav,
+#right-nav {
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+#city-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#gender-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.options {
+	margin: 4px;
+	height: max-content;
+	padding: 0.5em 0.7em;
+	border: 1px solid rgb(210, 210, 210);
+}
+
+.options:hover {
+	border: 1px solid black;
+}
+
+.selected {
+	background-color: #00ffc0;
+	border: 1px solid black;
+}
+
+#nav-update {
+	position: absolute;
+	bottom: 12%;
+	right: 24%;
+	background-color: #212121;
+	color: white;
+	padding: 1em 1.5em;
+	transition: all ease-in-out 200ms;
+	border: none;
+	outline: none;
+	font-size: 16px;
+}
+#nav-update:hover {
+	background-color: #018161;
+}
+
+@media (max-width: 1000px) {
+	#list-prop,
+	#schedule-visits {
+		display: none;
+	}
+}

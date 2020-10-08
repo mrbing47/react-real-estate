@@ -1,0 +1,63 @@
+#home-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff900;
+	height: 500px;
+}
+
+#home-card-container {
+	display: flex;
+}
+
+#home-heading {
+	text-align: end;
+	margin-top: 100px;
+	margin-right: 50px;
+	align-self: start;
+	width: 300px;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.home-card {
+	width: 250px;
+	padding: 20px 20px;
+	transition: transform 150ms linear;
+}
+
+.home-card:hover {
+	transform: translateY(-20px);
+}
+
+.home-img {
+	height: 80px;
+}
+
+.home-title {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 16px 0px;
+}
+
+.home-body {
+	margin-bottom: 16px;
+}
+
+.explore-house {
+	background-color: #fff900;
+	padding: 1em 1.5em;
+	border: 2px solid black;
+	outline: none;
+	text-transform: uppercase;
+	transition: all ease-in-out 150ms;
+}
+
+.explore-house:hover {
+	background-color: #00e4ff;
+}
+
+.home-price {
+	margin-top: 8px;
+}
