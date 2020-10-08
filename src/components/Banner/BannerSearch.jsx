@@ -3,11 +3,11 @@ import React from "react";
 export default function BannerSearch(props) {
 	return (
 		<div id={props.element_id}>
-			<input type="text" name="search" id="search" placeholder="Enter Location" />
+			<input type="text" name="search" placeholder="Enter Location" />
 			<button>
 				<svg width="14" height="14" viewBox="0 0 14 14">
 					<g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-						<g fill="#FFFFFF" fill-rule="nonzero">
+						<g fill="#FFFFFF" fillRule="nonzero">
 							<path d="M10.7973098,9.68915505 L14,12.8388705 L12.8442405,14 L9.60143246,10.8108303 C8.60500008,11.5189037 7.38146491,11.9359746 6.0595591,11.9359746 C2.71490558,11.9359746 0,9.2659755 0,5.9679873 C0,2.66999911 2.71490558,0 6.0595591,0 C9.40421263,0 12.1191182,2.66999911 12.1191182,5.9679873 C12.1191182,7.37573434 11.6244594,8.66906106 10.7973098,9.68915505 Z M6.0595591,10.30257 C8.50055664,10.30257 10.4758479,8.35995138 10.4758479,5.9679873 C10.4758479,3.57602323 8.50055664,1.63340465 6.0595591,1.63340465 C3.61856157,1.63340465 1.64327027,3.57602323 1.64327027,5.9679873 C1.64327027,8.35995138 3.61856157,10.30257 6.0595591,10.30257 Z"></path>
 						</g>
 					</g>

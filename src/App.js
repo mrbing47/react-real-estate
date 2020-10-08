@@ -4,6 +4,9 @@ import Banner from "./components/Banner/Banner";
 import "./App.css";
 import Home from "./components/Home/Home";
 import Benefits from "./components/Benefits/Benefits";
+import Stats from "./components/Stats/Stats";
+import Owner from "./components/Owner/Owner";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 	return (
@@ -13,6 +16,9 @@ function App() {
 				<Navbar />
 				<Home />
 				<Benefits />
+				<Stats />
+				<Owner />
+				<Footer />
 			</section>
 		</div>
 	);

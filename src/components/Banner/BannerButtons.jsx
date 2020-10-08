@@ -18,7 +18,7 @@ export default function BannerButtons() {
 					src="https://nestaway-assets.akamaized.net/refonte/precompiled-assets/src/assets/images/common/franchiseIcon-983fa741ca0b127aef73632fa65b4f9c.png"
 					alt=""
 				/>
-				Own a Yehlosoft Franchise
+				Own a Yehlosoft Infomedia Franchise
 				<a href="#">
 					Register <i className="arrow-right"></i>
 				</a>

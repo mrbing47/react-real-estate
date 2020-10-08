@@ -13,11 +13,3 @@ html {
 body {
 	width: 100%;
 }
-
-#banner {
-	height: calc(100vh - 80px);
-}
-
-#main-content {
-	height: 200vh;
-}
