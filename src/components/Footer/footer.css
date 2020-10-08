@@ -46,3 +46,15 @@
 	color: grey;
 	margin-bottom: 4px;
 }
+
+@media (max-width: 768px) {
+	#footer-container {
+		flex-direction: column;
+	}
+	#left-footer {
+		margin-bottom: 100px;
+	}
+	.footer-link-list {
+		margin: 0px 16px;
+	}
+}

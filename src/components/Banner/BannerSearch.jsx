@@ -12,7 +12,7 @@ export default function BannerSearch(props) {
 						</g>
 					</g>
 				</svg>
-				Search
+				<span>Search</span>
 			</button>
 		</div>
 	);

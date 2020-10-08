@@ -33,3 +33,31 @@
 	margin-top: 16px;
 	font-size: 24px;
 }
+
+@media (max-width: 768px) {
+	#benefits-container {
+		flex-direction: column;
+		height: max-content;
+		align-items: center;
+	}
+	#benefits-card-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	#benefits-heading {
+		align-self: center;
+		text-align: center;
+		margin: 0px 0px 20px;
+		width: 260px;
+	}
+	.benefits-card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 240px;
+		margin: 16px 0px;
+	}
+	.benefit-body {
+		padding: 0px;
+	}
+}

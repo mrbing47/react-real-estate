@@ -3,6 +3,7 @@
 	background-color: white;
 	top: 0px;
 	left: 0px;
+	z-index: 10000;
 }
 #navbar {
 	display: flex;
@@ -165,5 +166,33 @@ h1 {
 	#list-prop,
 	#schedule-visits {
 		display: none;
+	}
+	#navbar-search-container {
+		display: none;
+	}
+	#options-container {
+		flex-direction: column;
+		padding: 20px;
+	}
+
+	#left-nav {
+		width: 100%;
+	}
+	#right-nav {
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	h1 {
+		margin-bottom: 8px;
+	}
+
+	.options {
+		font-size: 12px;
+	}
+
+	#nav-update {
+		margin: 40px 0px 0px;
+		position: static;
 	}
 }

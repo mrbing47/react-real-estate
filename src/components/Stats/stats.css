@@ -2,12 +2,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 100px 40px;
-	background-color: #c5ff01;
+	flex-wrap: wrap;
+	padding: 80px 40px;
+	background-color: #05e5ff;
 }
 
 .stats-card {
-	margin: 0px 40px;
+	margin: 40px;
 }
 
 .stat-title {

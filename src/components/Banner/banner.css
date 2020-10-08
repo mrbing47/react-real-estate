@@ -57,6 +57,7 @@
 #banner-search-container {
 	display: flex;
 	width: 68%;
+	margin-top: 20px;
 }
 
 #banner-search-container input {
@@ -143,7 +144,7 @@
 }
 
 #banner-offers-container {
-	margin-top: 64px;
+	margin-top: 50px;
 	width: 96%;
 	height: 100px;
 	display: flex;
@@ -164,7 +165,6 @@
 
 #right-offer {
 	padding-left: 16px;
-	/* background-color: red; */
 }
 #offer-img {
 	height: 32px;
@@ -191,4 +191,49 @@
 .blue {
 	background-color: #eefdff;
 	border-bottom: 8px solid #00d0e9;
+}
+
+@media (max-width: 768px) {
+	#banner-container {
+		height: max-content;
+	}
+	#banner-img,
+	#right-detail {
+		display: none;
+	}
+
+	.banner-benefits-container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	#banner-offers-container {
+		flex-direction: column;
+		height: max-content;
+	}
+	.offer-card {
+		margin-bottom: 16px;
+	}
+
+	#banner-search-container {
+		width: 72%;
+	}
+
+	#banner-search-container button span {
+		display: none;
+	}
+
+	#banner-search-container button svg {
+		margin: 0;
+	}
+
+	#banner-buttons-container {
+		width: 72%;
+		flex-direction: column;
+	}
+	#own-prop,
+	#own-franchise {
+		width: 100%;
+		margin-bottom: 16px;
+	}
 }
